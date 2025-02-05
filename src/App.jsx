@@ -5,14 +5,16 @@ import './App.css'
 // import ThreeDCanvas from './components/ThreeDCanvas'
 // import WaterColorCanvas from './components/WaterColourCanvas'
 import WaterPaintCanvas from './components/WaterPaintCanvas'
+import FluidCanvas from './components/FluidCanvas'
 
 function App() {
 
   return (
     <>
-    <WaterPaintCanvas/>
+    {/* <WaterPaintCanvas/> */}
     {/* <WaterColorCanvas/>
     <ThreeDCanvas/> */}
+    <FluidCanvas/>
     </>
   )
 }
