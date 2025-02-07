@@ -6,6 +6,7 @@ import './App.css'
 // import WaterColorCanvas from './components/WaterColourCanvas'
 import WaterPaintCanvas from './components/WaterPaintCanvas'
 import FluidCanvas from './components/FluidCanvas'
+import MagneticLines from './components/MagneticLines'
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
     {/* <WaterPaintCanvas/> */}
     {/* <WaterColorCanvas/>
     <ThreeDCanvas/> */}
-    <FluidCanvas/>
+    {/* <FluidCanvas/> */}
+    <MagneticLines/>
     </>
   )
 }
